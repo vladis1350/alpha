@@ -1,4 +1,4 @@
-package exapmle.service;
+package exapmle.requests;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

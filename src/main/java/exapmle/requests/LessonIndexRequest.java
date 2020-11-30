@@ -5,27 +5,24 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
 
-import java.util.List;
-
 @Data
 @Builder
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SendBranchRequest {
+public class LessonIndexRequest {
 
     @JsonProperty("id")
-    private int id;
-
-    @JsonProperty("is_active")
-    private String is_active;
+    private String id;
 
     @JsonProperty("page")
     private String page;
 
-    @JsonProperty("name")
-    private String name;
+    @JsonProperty("date_from")
+    private String date_from;
 
-    @JsonProperty("subject_ids")
-    private List<Integer> subjectIds;
+    @JsonProperty("date_to")
+    private String date_to;
 
+    @JsonProperty("status")
+    private String status;
 
 }

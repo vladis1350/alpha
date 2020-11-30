@@ -11,6 +11,6 @@ public class InitializationService {
 
     @SneakyThrows
     public void initalize() {
-        crmService.getBranch();
+        crmService.getLesson();
     }
 }

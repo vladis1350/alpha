@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8736844-b9b1-4c1f-8da8-d193354f0c05" name="Default Changelist" comment="" />
+    <list default="true" id="d8736844-b9b1-4c1f-8da8-d193354f0c05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exapmle/models/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exapmle/models/LessonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exapmle/requests/SendLessonTypeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exapmle/service/responses/LessonIndexResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exapmle/service/responses/LessonTypeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/controller/WebhookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exapmle/controller/WebhookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/requests/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/requests/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/requests/SendBranchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exapmle/requests/LessonIndexRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/service/AuthorizationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exapmle/requests/AuthorizationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/service/CrmProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exapmle/service/CrmProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/service/CrmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exapmle/service/CrmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/service/InitializationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exapmle/service/InitializationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exapmle/service/responses/BranchIndexResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/controller/WebhookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exapmle/controller/WebhookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/requests/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/requests/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/requests/SendBranchRequest$SendBranchRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/requests/SendBranchRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/service/AuthorizationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/service/CrmProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exapmle/service/CrmProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/service/CrmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exapmle/service/CrmService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/service/InitializationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exapmle/service/InitializationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exapmle/service/responses/BranchIndexResponse.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,12 +53,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1kwBQwknaa7Zcbzipdd9n9N7cAd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/exapmle" />
@@ -41,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exapmle.requests" />
       <recent name="exapmle.service" />
       <recent name="exapmle.bean" />
     </key>
@@ -81,11 +114,22 @@
       <option name="presentableId" value="Default" />
       <updated>1606601761019</updated>
       <workItem from="1606601767055" duration="9983000" />
-      <workItem from="1606675246222" duration="11361000" />
+      <workItem from="1606675246222" duration="22602000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
